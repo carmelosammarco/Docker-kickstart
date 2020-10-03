@@ -11,8 +11,7 @@ app = Flask(__name__)
 
 def load_data_in_es():
     """ creates an index in elasticsearch """
-    #url = "http://data.sfgov.org/resource/rqzj-sfat.json"
-    url = "https://raw.githubusercontent.com/carmelosammarco/Palermo-SF/master/utils/Streetfood.json"
+    url = "https://raw.githubusercontent.com/carmelosammarco/Docker-kickstart/master/Exercise-3/Palermo-SF/utils/Streetfood.json"
     r = requests.get(url)
     data = r.json()
     print("Loading data in elasticsearch ...")
