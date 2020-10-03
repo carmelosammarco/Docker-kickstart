@@ -1,7 +1,11 @@
 {
   "name": "sf-food",
-  "version": "0.0.1",
+  "version": "0.0.5",
   "description": "SF food app",
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/username/repository.git"
+  },
   "main": "index.js",
   "scripts": {
     "start": "webpack --progress --colors --watch",

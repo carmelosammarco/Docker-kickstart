@@ -1,7 +1,6 @@
 import React from "react";
 import request from "superagent";
 import Intro from "./Intro";
-import Vendor from "./Vendor";
 
 class Sidebar extends React.Component {
   constructor(props) {

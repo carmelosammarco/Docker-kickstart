@@ -42,7 +42,7 @@ div.intro a:visited {
   color: #fded39;
 }
 div.intro {
-  padding: 10px;
+  padding: 5px;
 }
 
 div.intro h3 {
@@ -85,7 +85,7 @@ button {
 div#heading {
   background: #fded39;
   margin: 0;
-  height: 6vh;
+  height: 15vh;
   text-align: center;
 }
 

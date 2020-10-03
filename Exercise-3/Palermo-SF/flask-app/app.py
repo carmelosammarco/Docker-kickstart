@@ -34,8 +34,7 @@ def safe_check_index(index, retry=3):
 
 def format_fooditems(string):
     items = [x.strip().lower() for x in string.split(":")]
-    return items[1:] if items[0].find("cold truck") > -1 else items
-    #return items
+    return items
     
 def check_and_load_index():
     """ checks if index exits and loads the data accordingly """
