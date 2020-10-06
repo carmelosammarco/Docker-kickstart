@@ -1,0 +1,7 @@
+Check here!
+
+docker-compose build
+docker-compose up
+
+http://localhost:5000
+
