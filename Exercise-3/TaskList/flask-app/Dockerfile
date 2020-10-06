@@ -3,7 +3,7 @@ FROM python:3
 LABEL maintainer="Carmelo Sammarco <carmelosammarco.com>"
 
 # copy our application code
-ADD  /todo
+ADD  . /opt/flask-app
 WORKDIR /opt/flask-app
 
 
