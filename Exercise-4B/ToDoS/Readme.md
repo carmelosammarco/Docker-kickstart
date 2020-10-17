@@ -1,6 +1,7 @@
 ## Project setup
 This app contains both the backend and the frontend in a single repository.
 ```	
+├── PIC
 ├── Readme.md
 ├── backend
 ├── docker-compose.yml
