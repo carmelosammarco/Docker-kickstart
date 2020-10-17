@@ -2,6 +2,11 @@
     "name": "node-todo",
     "version": "0.0.0",
     "description": "Simple todo application.",
+    "license" : "GPL-3.0-or-later",
+    "repository": {
+    "type": "git",
+    "url": "git://github.com/username/repository.git"
+    },
     "main": "server.js",
     "author": "Samuel James",
     "scripts": {

@@ -1,5 +1,5 @@
 <template>
-  <div v-bind:show="todos.length>0" class="col align-self-center">
+  <div v-bind:show="todos.length>0" class="col">
     <div class="form-row align-items-center" v-bind:key="todo" v-for="todo in todos">
       <div class="col-auto my-1">
         <div class="input-group mb-3 todo__row">
@@ -37,10 +37,7 @@
         </div>
       </div>
     </div>
-    <div
-      class="alert alert-primary todo__row"
-      v-show="todos.length==0 && doneLoading"
-    >Hardest worker in the room. No more todos now you can rest. ;)</div>
+    
   </div>
 </template>
 
@@ -108,8 +105,8 @@ export default {
 }
 
 .no_border_left_right {
-  border-left: 0px;
-  border-right: 0px;
+  border-left: 4px;
+  border-right: 4px;
 }
 
 .flat_form {
@@ -122,12 +119,12 @@ export default {
 
 .addon-left {
   background-color: none !important;
-  border-left: 0px !important;
+  border-left: 1px !important;
   cursor: pointer !important;
 }
 
 .addon-right {
   background-color: none !important;
-  border-right: 0px !important;
+  border-right: 1px !important;
 }
 </style>

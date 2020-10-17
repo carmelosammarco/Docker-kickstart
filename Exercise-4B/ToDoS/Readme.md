@@ -7,7 +7,6 @@ This app contains both the backend and the frontend in a single repository.
 └── frontend
 ```
 
-
 Navigate to the root directory.
 
 ```bash
@@ -22,4 +21,6 @@ Start the `frontend`, `backend` and `db` containers using docker-compose
 $ docker-compose up -d 
 ```
 
-Access the app from your browser at http://localhost:8080
+Access the app from your browser at http://localhost:8080: 
+
+![PIC](PIC/Screen.png)

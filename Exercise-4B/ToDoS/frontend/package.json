@@ -1,6 +1,11 @@
 {
   "name": "ux",
   "version": "0.1.0",
+  "license" : "GPL-3.0-or-later",
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/username/repository.git"
+   },
   "private": true,
   "scripts": {
     "serve": "vue-cli-service serve",

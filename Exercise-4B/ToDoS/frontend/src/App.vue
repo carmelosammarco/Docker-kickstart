@@ -1,6 +1,6 @@
 <template>
   <div class="container">
-    <div class="row vertical-centre justify-content-center mt-50">
+    <div class="row  justify-content-center mt-50">
       <div class="col-md-6 mx-auto">
         <CreateTodo></CreateTodo>
         <ListTodo></ListTodo>
@@ -29,6 +29,6 @@ export default {
   align-items: center;
 }
 .todo__row {
-  width: 400px;
+  width: 600px;
 }
 </style>
