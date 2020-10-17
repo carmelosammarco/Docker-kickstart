@@ -15,7 +15,7 @@ Start the application
 docker-compose up
 ```
 
-## How to acess API from other PCs
+## How to access API from other PCs
 
 The external IP is required for the website to access the API from other PCs. For that, I included a shell script that automatically gets your IP Address on Linux, or lets you add a custom one if you are on Windows.
 
