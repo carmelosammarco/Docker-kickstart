@@ -3,7 +3,7 @@
   <section>
     <link href="https://fonts.googleapis.com/css?family=Press+Start+2P" rel="stylesheet" />
     <h1>ToDoS</h1>
-    <input type="text" class="nes-input" id="todo-input" placeholder="Add todo..." />
+    <input type="text" class="nes-input" id="todo-input" placeholder="Add ToDo..." />
     <button v-on:click="addTodo">Add todo</button>
     <ul>
       <li v-for="todo in todos" :key="todo.text" class="flex">
@@ -69,7 +69,7 @@ samp {
 }
 
 body {
-  background: #20262e;
+  background: #3273c9;
   padding: 20px;
 }
 
@@ -85,7 +85,7 @@ li {
 }
 
 del {
-  color: rgba(0, 0, 0, 0.3);
+  color: rgba(255,0,0,0.3);
 }
 
 .padding {
