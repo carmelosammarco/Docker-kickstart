@@ -2,7 +2,7 @@
   <!-- eslint-disable -->
   <section>
     <link href="https://fonts.googleapis.com/css?family=Press+Start+2P" rel="stylesheet" />
-    <h1>TODOS</h1>
+    <h1>ToDoS</h1>
     <input type="text" class="nes-input" id="todo-input" placeholder="Add todo..." />
     <button v-on:click="addTodo">Add todo</button>
     <ul>
