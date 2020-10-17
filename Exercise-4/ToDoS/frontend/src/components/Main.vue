@@ -3,17 +3,20 @@
   <section>
     <link href="https://fonts.googleapis.com/css?family=Press+Start+2P" rel="stylesheet" />
     <h1>ToDoS</h1>
-    <input type="text" class="nes-input" id="todo-input" placeholder="Add ToDo..." size="200" />
-    <button v-on:click="addTodo">Add todo</button>
+    <center><input type="text" class="nes-input" id="todo-input" placeholder="Add ToDo..." size="75"/>
+    <br><br/>
+    <button class="adding" v-on:click="addTodo">Add todo</button><center/>
     <ul>
       <li v-for="todo in todos" :key="todo.text" class="flex">
         <label>
-          <input type="checkbox" class="nes-checkbox" v-on:click="removeTodo(todo._id)" />
+          <!--<input type="checkbox" class="nes-checkbox" v-on:click="removeTodo(todo._id)" />-->
+          <input type="checkbox" class="largerCheckbox" />
           <span>&nbsp</span>
         </label>
         <span>{{ todo.title }}</span>
         <div class="space"></div>
-        <button class="nes-btn is-error padding" v-on:click="removeTodo(todo._id)">X</button>
+        <!--<button class="nes-btn is-error padding" v-on:click="removeTodo(todo._id)">X</button>-->
+        <button class="deleting" v-on:click="removeTodo(todo._id)">X</button>
       </li>
     </ul>
   </section>
@@ -68,6 +71,10 @@ samp {
   font-family: "Press Start 2P";
 }
 
+h1 {
+  font-size:45px;
+}
+
 body {
   background: #3273c9;
   padding: 20px;
@@ -82,6 +89,7 @@ body {
 
 li {
   margin: 8px 0;
+  font-size:35px;
 }
 
 del {
@@ -99,6 +107,40 @@ del {
 .space {
   flex-grow: 1;
 }
+
+.adding {
+  background-color: #4CAF50; /* Green */
+  color: black;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 20px;
+  margin: 4px 2px;
+  cursor: pointer;
+}
+
+.deleting {
+  background-color: #f44336;
+  width: 45px;
+  height: 45px;
+  font-size: 30px;
+  color: black;
+}  
+
+.nes-input {
+  height: 45px;
+  font-size:35px;
+}
+
+.inputting {
+  padding: 16px;
+}
+
+ input.largerCheckbox { 
+   width: 45px; 
+   height: 45px; 
+ }
 
 </style>
 
