@@ -10,7 +10,7 @@ This app contains both the backend and the frontend in a single repository.
 Navigate to the root directory.
 
 ```bash
-$ cd B)ToDoS
+$ cd ToDoS
 ```
 ### Start app containers
 
