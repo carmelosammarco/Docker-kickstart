@@ -7,17 +7,10 @@ This app contains both the backend and the frontend in a single repository.
 └── frontend
 ```
 
-### Clone Repository
-
-```bash
-git clone git@github.com:abiodunjames/NodeJs-Todo-List.git
-
-```
-
 Navigate to the root directory.
 
 ```bash
-$ cd NodeJs-Todo-List
+$ cd B)ToDoS
 ```
 ### Start app containers
 
