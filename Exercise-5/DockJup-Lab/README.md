@@ -7,10 +7,14 @@ With this exercise I will show you how to deploy Jupiter-lab on Docker. Already 
 
 After log-in to your personal space:
 
-<center><img width="600" alt="pwd" src="DOC/pwd.png" style="border: 3px solid black"></center>
+<center>
+    <img width="800" alt="pwd" src="DOC/pwd.png" style="border: 5px solid black">
+</center>
 
 You will able to access your Jupiter-lab working space:
 
-<center><img width="600" alt="Screenshot" src="DOC/Screenshot.png" style="border: 3px solid black"></center>
+<center>
+    <img width="800" alt="Screenshot" src="DOC/Screenshot.png" style="border: 5px solid black">
+</center>
 
 Have fun!! :)
