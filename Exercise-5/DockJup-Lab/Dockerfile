@@ -30,7 +30,7 @@ COPY . .
 #Create python environment
 RUN conda env create -n myenv -f environment.yml
 
-# Make RUN commands use the new python environment:
+#Make RUN commands use the new python environment:
 SHELL ["conda", "run", "-n", "myenv", "/bin/bash", "-c"]
 
 #Port to expose
